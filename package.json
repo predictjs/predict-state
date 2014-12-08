@@ -1,0 +1,17 @@
+{
+  "name": "predict-state",
+  "version": "1.0.0",
+  "description": "provides abstractions for working with mutable state",
+  "main": "index.js",
+  "scripts": {
+    "compile": "6to5 -t lib --out-dir src/",
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "author": "Patrik Hedman",
+  "license": "MIT",
+  "devDependencies": {
+    "6to5": "^1.14.10",
+    "mocha": "^2.0.1",
+    "mocha-testcheck": "^0.1.2"
+  }
+}
